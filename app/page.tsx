@@ -1,10 +1,17 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <>
-    <h1>hello prasad</h1>
-    <div className= "flex bg-amber-200">prasad</div>
-    </>
+    <section className="max-w-7xl mx-auto p-10">
+      <h1 className="text-5xl font-bold">
+        Welcome to Event Management
+      </h1>
+
+      <p className="mt-4 text-gray-600">
+        Plan, organize and manage your events easily.
+      </p>
+
+      <button className="mt-8 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+        Explore Events
+      </button>
+    </section>
   );
 }
