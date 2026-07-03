@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <section className="max-w-7xl mx-auto p-10">
@@ -9,9 +11,11 @@ export default function Home() {
         Plan, organize and manage your events easily.
       </p>
 
-      <button className="mt-8 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
-        Explore Events
-      </button>
+      <Link href="/events">
+        <button className="mt-8 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+          Explore Events
+        </button>
+      </Link>
     </section>
   );
 }
