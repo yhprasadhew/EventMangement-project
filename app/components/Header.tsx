@@ -52,11 +52,12 @@ export default function Header() {
     <header className="bg-blue-900 text-white">
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
 
-        {/* Logo */}
-        <h1 className="text-xl font-bold">
-          Event Management
-        </h1>
-
+       {/* Logo */}
+<h1 className="text-xl font-bold">
+  <Link href="/">
+    Event Management
+  </Link>
+</h1>
         {/* Navigation */}
         <nav className="flex items-center gap-6">
 
